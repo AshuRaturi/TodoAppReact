@@ -1,0 +1,87 @@
+*{margin: 0;padding: 0;}
+
+body{
+    background-image: url(todo_bcg2.avif);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+}
+
+
+.todo_heading{
+   text-align: center;
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+.todo_container{
+ width: 30%;
+margin: auto;
+/* background-color: cadetblue; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+padding: 1rem;
+
+}
+
+.todo_container>input{
+    width: 22rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    box-shadow: inset 2px 2px 5px black; 
+    font-size: 1rem;
+}
+.todo_container>button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+   
+    background: linear-gradient(to right, #4DA0B0 0%, #D39D38  51%, #4DA0B0  100%);
+    color: #ffff;
+    box-shadow:  2px 2px 2px black;
+}
+.todo_append_div{
+    font-size: 1.3rem;
+    width: 25%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    gap: 1rem;
+    text-align: center;
+}
+
+
+.append_div>button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    /* background: linear-gradient(to right, #4DA0B0 0%, #D39D38  51%, #4DA0B0  100%); */
+    background-color: red;
+
+    color: #ffff;
+    box-shadow:  2px 2px 2px black;
+}
+.append_div>input{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    box-shadow: inset 2px 2px 5px black; 
+    font-size: 1rem;
+}
+.data_div{
+    background: linear-gradient(to right,rgb(122, 255, 122), rgba(128, 128, 128, 0.696) 50%,rgb(122, 255, 122));
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.695);
+    margin-bottom: 0.5rem;
+}
